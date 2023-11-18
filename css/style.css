@@ -9,15 +9,94 @@ body {
   line-height: 1.5;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+header {
+  background-image: url("images/02-hero-bg.jpg");
+  background-size: cover;
+  color: black;
+  padding: 2em;
+}
+
+header .space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+header h1 {
   margin: 0;
 }
 
-p {
-  margin: 0;
+header .nav-center a {
+  margin: 0 10px;
+  color: black;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 50px;
+}
+
+.space-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center {
+  width: 80%;
+}
+
+.nav {
+  display: flex;
+  padding: 30px;
+  margin: auto;
+}
+
+.project-box {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+  padding: 50px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.aboutMe,
+.work,
+.contact {
+  height: 50%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.surfReport {
+  background-image: url("../images/02-portfolio-4.jpg");
+  height: 300px;
+  width: 500px;
+}
+
+.ledWall {
+  background-image: url("../images/02-portfolio-2.jpg");
+}
+
+.calculator {
+  background-image: url("../images/02-portfolio-3.jpg");
+}
+
+.pastelPuzzles,
+.runBody {
+  background-image: url("../images/02-portfolio-1.jpg");
 }

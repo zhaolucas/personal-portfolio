@@ -2,58 +2,95 @@
 <html lang="en-gb">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Lucas Z, Your Web Developing Solution</title>
-  <link rel="stylesheet" href="./assets/css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Your Web Developing Solution</title>
+  <link rel="stylesheet" href="./css/style.css" />
 </head>
 
-<nav> 
-<a href="#Summary"></a>
-<a href="#Experience"></a>
-<a href="#Portfolio"></a>
-<a href="#Education"></a>
-<a href="#Contact"></a>
-</nav>
-
 <body>
-  <!-- main logo / nav -->
+  <!-- main banner, navigation, message -->
   <header>
-    <h1>Lucas Z.</h1>
-    <nav>
-    </nav>
+    <div class="space-between">
+      <h1>Lucas' Portfolio</h1>
+      <div class="nav-center">
+        <a href="aboutMe">About Me</a>
+        <a href="work">Work</a>
+        <a href="contact">Contact Me</a>
+      </div>
+    </div>
+    <div></div>
   </header>
 
-  <!-- hero banner -->
-  <section class="hero-banner">
-    <div>
-      <h2>Hello World</h2>
-    </div>
-  </section>
-
-  <main class="page-wrapper">
-    <!-- about me -->
-    <section class="page-section" id="summary">
-      <h2>Summary</h2>
+  <main>
+    <!-- About Me Section -->
+    <section class="space-between aboutMe">
+      <div>
+        <h2>About Me</h2>
+      </div>
+      <div>
+        <img
+          src="https://media.licdn.com/dms/image/D4E03AQFq8DPSoNPz6A/profile-displayphoto-shrink_200_200/0/1688675290402?e=1705536000&v=beta&t=ZABFk0KotToqV3GSUa7Dqx-P27RQDW4HkQ57RaH-G5A"
+          alt="avatar">
+        <h3>
+          Hello World!
+          I am an aspiring web developer!
+        </h3>
+      </div>
     </section>
 
-    <!-- portfolio container -->
-    <section class="page-section" id="experience">
-      <h2>Experience</h2>
+    <!-- Work Section -->
+    <section class="work">
+      <div>
+        <h2>Work</h2>
+      </div>
+
+      <!-- First project in its own container -->
+      <div class="project-container">
+        <div class="project-box surfReport">
+          <div class="text">
+            <h3>Surf Report</h3>
+            <p>MERN Stack</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second row with four projects each in its own container -->
+      <div class="project-container">
+        <div class="project-box ledWall">
+          <div class="text">
+            <h3>LED Wall</h3>
+            <p>Node/loT</p>
+          </div>
+        </div>
+
+        <div class="project-box calculator">
+          <div class="text">
+            <h3>Calculator</h3>
+            <p>React/Javascript/CSS</p>
+          </div>
+        </div>
+
+        <div class="project-box pastelPuzzles">
+          <div class="text">
+            <h3>Pastel Puzzles</h3>
+            <p>MERN Stack</p>
+          </div>
+        </div>
+
+        <div class="project-box runBody">
+          <div class="text">
+            <h3>Run Body</h3>
+            <p>HTML/CSS</p>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <section class="page-section" id="portfolio">
-      <h2>Portfolio & Projects</h2>
-    </section>
-
-    <section class="education" id="education">
-      <h2>Education</h2>
-    </section>
-
-    <!-- contact -->
-    <section class="page-section contact" id="contact">
-      <h2>Social Media</h2>
+    <!-- Contact Section -->
+    <section class="contact">
+      <h2>Contact Me</h2>
     </section>
   </main>
 </body>
