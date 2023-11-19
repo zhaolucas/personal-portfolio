@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-gb">
 
+<!-- loads the title, and link to css -->
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,54 +12,41 @@
 </head>
 
 <body>
-  <!-- main banner, navigation, message -->
+  <!-- main banner, navigation, message, defined by nav -->
   <header>
-    <div class="space-between">
-      <h1>Lucas' Portfolio</h1>
-      <div class="nav-center">
-        <a href="aboutMe">About Me</a>
-        <a href="work">Work</a>
-        <a href="contact">Contact Me</a>
-      </div>
-    </div>
-    <div></div>
+    <h1>Lucas' Portfolio</h1>
+    <nav class="nav-center">
+      <a href="aboutMe">About Me</a>
+      <a href="work">Work</a>
+      <a href="contact">Contact Me</a>
+    </nav>
   </header>
 
   <main>
     <!-- About Me Section -->
-    <section class="space-between aboutMe">
-      <div>
-        <h2>About Me</h2>
-      </div>
-      <div>
-        <img
-          src="https://media.licdn.com/dms/image/D4E03AQFq8DPSoNPz6A/profile-displayphoto-shrink_200_200/0/1688675290402?e=1705536000&v=beta&t=ZABFk0KotToqV3GSUa7Dqx-P27RQDW4HkQ57RaH-G5A"
-          alt="avatar">
-        <h3>
-          Hello World!
-          I am an aspiring web developer!
-        </h3>
-      </div>
+    <section class="aboutMe">
+      <h2>About Me</h2>
+      <img
+        src="https://media.licdn.com/dms/image/D4E03AQFq8DPSoNPz6A/profile-displayphoto-shrink_200_200/0/1688675290402?e=1705536000&v=beta&t=ZABFk0KotToqV3GSUa7Dqx-P27RQDW4HkQ57RaH-G5A"
+        alt="avatar">
+      <h3> Hello World!I am an aspiring web developer!</h3>
     </section>
+
 
     <!-- Work Section -->
     <section class="work">
-      <div>
-        <h2>Work</h2>
-      </div>
+      <h2>Work</h2>
 
-      <!-- First project in its own container -->
       <div class="project-container">
+        <!-- Project 1 -->
         <div class="project-box surfReport">
           <div class="text">
             <h3>Surf Report</h3>
             <p>MERN Stack</p>
           </div>
         </div>
-      </div>
 
-      <!-- Second row with four projects each in its own container -->
-      <div class="project-container">
+        <!-- Project 2 -->
         <div class="project-box ledWall">
           <div class="text">
             <h3>LED Wall</h3>
@@ -65,6 +54,7 @@
           </div>
         </div>
 
+        <!-- Project 3 -->
         <div class="project-box calculator">
           <div class="text">
             <h3>Calculator</h3>
@@ -72,6 +62,7 @@
           </div>
         </div>
 
+        <!-- Project 4 -->
         <div class="project-box pastelPuzzles">
           <div class="text">
             <h3>Pastel Puzzles</h3>
@@ -79,6 +70,7 @@
           </div>
         </div>
 
+        <!-- Project 5 -->
         <div class="project-box runBody">
           <div class="text">
             <h3>Run Body</h3>
@@ -89,8 +81,9 @@
     </section>
 
     <!-- Contact Section -->
-    <section class="contact">
+    <section class="contactMe">
       <h2>Contact Me</h2>
+      <h3>Telephone: Email: Website: Social Media</h3>
     </section>
   </main>
 </body>
