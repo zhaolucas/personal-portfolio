@@ -33,8 +33,9 @@ To set up the development environment, load the HTML and CSS files into a VS Cod
 
 The page loads three sections: 
 1) about me: name, avator, description
-2) work: five projects with titled images of applications; the first application is larger than the rest; when clicked on the title, the application is opened to the deployed page. 
-3) layout should be responsive to the size of the screens and devices. 
+2) work: five projects with titled images of applications; the first application is larger than the rest; when clicked on the title, the application is opened to the deployed page.
+3) contact: social media, number and email
+4) layout should be responsive to the size of the screens and devices. 
 
 
 ## Credits
