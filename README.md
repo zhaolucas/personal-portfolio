@@ -12,7 +12,7 @@ Key skills include using flexbox, media queries and variables.
 
 This project is driven by the intention to emulate the mock up page to look like it as much as possible.
 
- ![Alt text](02-portfolio-mockup.png)
+ ![Alt text](<images/02-portfolio-mockup.png>)
 
 Link to the deployed application: https://zhaolucas.github.io/personal-portfolio/
 
@@ -29,7 +29,7 @@ To set up the development environment, load the HTML and CSS files into a VS Cod
 
 ## Usage 
 
-![Alt text](<.png>)
+![Alt text](<images/Screenshot 2023-11-28 at 22.17.19.png>)
 
 The page loads three sections: 
 1) about me: name, avator, description
